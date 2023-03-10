@@ -17,7 +17,7 @@ bash scripts/download_checkpoints.sh
 ```
 
 ## Setup Datasets
-- Download [**Cityscapes**](https://www.cityscapes-dataset.com/), [**BDDS**](https://doc.bdd100k.com/download.html), [**Mapillary**](https://www.mapillary.com/datasets) and make the directory structures as follows in <path_to_tldr>/data folder.
+- Download [**Cityscapes**](https://www.cityscapes-dataset.com/), [**BDDS**](https://doc.bdd100k.com/download.html), [**Mapillary**](https://www.mapillary.com/datasets) and make the directory structures as follows in **<path_to_tldr>/data** folder.
 
 ```
 cityscapes
@@ -53,7 +53,7 @@ mapillary
    └ labels
 ```
 
-- Download [**GTA**](https://download.visinf.tu-darmstadt.de/data/from_games/) and [**SYNTHIA**](http://synthia-dataset.net/download/808/) and split them into training/validation/test set following the approach used in [**RobustNet**](https://github.com/shachoi/RobustNet/tree/main/split_data). Then, make the directory structures as follows in <path_to_tldr>/data folder.
+- Download [**GTA**](https://download.visinf.tu-darmstadt.de/data/from_games/) and [**SYNTHIA**](http://synthia-dataset.net/download/808/) and split them into training/validation/test set following the approach used in [**RobustNet**](https://github.com/shachoi/RobustNet/tree/main/split_data). Then, make the directory structures as follows in **<path_to_tldr>/data** folder.
 
 ```
 GTAV
