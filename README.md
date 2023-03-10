@@ -88,7 +88,7 @@ synthia
 python tools/convert_datasets/gta.py data/gta --nproc 8
 python tools/convert_datasets/cityscapes.py data/cityscapes --nproc 8
 ```
-## Evaluation
+## Evaluate Pre-trained model
 
 We provide TLDR checkpoint trained on GTA dataset using ResNet-50 (already downloaded by `tools/download_checkpoints.sh`).
 The checkpoint can be evalutated on the Cityscapes validation dataset using:
