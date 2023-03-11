@@ -101,7 +101,7 @@ The provided checkpoint must achieve 46.97 mIoU, which is one of the checkpoints
 
 
 ## Training
-Get [**ImageNet val**](https://image-net.org/challenges/LSVRC/index.php) dataset as a random style dataset, please place the dataset in **<path_to_tldr>/data** folder.
+Download [**ImageNet validation**](https://image-net.org/challenges/LSVRC/index.php) dataset as a random style dataset, please place the dataset in **<path_to_tldr>/data** folder.
 
 We provide an [config file](configs/TLDR/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py) of the TLDR.
 A training can be launched using:
