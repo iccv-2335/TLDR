@@ -17,7 +17,7 @@ bash scripts/download_checkpoints.sh
 ```
 
 ## Setup Datasets
-- Download [**Cityscapes**](https://www.cityscapes-dataset.com/), [**BDDS**](https://doc.bdd100k.com/download.html), [**Mapillary**](https://www.mapillary.com/datasets) and make the directory structures as follows in **<path_to_tldr>/data** folder.
+- Download [**Cityscapes**](https://www.cityscapes-dataset.com/), [**BDDS**](https://doc.bdd100k.com/download.html), [**Mapillary**](https://www.mapillary.com/datasets) and make the directory structures as follows in **data** folder.
 
 ```
 cityscapes
@@ -53,7 +53,7 @@ mapillary
    └ labels
 ```
 
-- Download [**GTA**](https://download.visinf.tu-darmstadt.de/data/from_games/) and [**SYNTHIA**](http://synthia-dataset.net/download/808/) and split them into training/validation/test set following the approach used in [**RobustNet**](https://github.com/shachoi/RobustNet/tree/main/split_data). Then, make the directory structures as follows in **<path_to_tldr>/data** folder.
+- Download [**GTA**](https://download.visinf.tu-darmstadt.de/data/from_games/) and [**SYNTHIA**](http://synthia-dataset.net/download/808/) and split them into training/validation/test set following the approach used in [**RobustNet**](https://github.com/shachoi/RobustNet/tree/main/split_data). Then, make the directory structures as follows in **data** folder.
 
 ```
 GTAV
@@ -101,7 +101,7 @@ The provided checkpoint must achieve 46.97 mIoU, which is one of the checkpoints
 
 
 ## Training
-Download [**ImageNet validation**](https://image-net.org/challenges/LSVRC/index.php) dataset as a random style dataset, please place the dataset in **<path_to_tldr>/data** folder.
+Download [**ImageNet validation**](https://image-net.org/challenges/LSVRC/index.php) dataset as a random style dataset, please place the dataset in **data** folder.
 
 We provide an [config file](configs/TLDR/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py) of the TLDR.
 A training can be launched using:
