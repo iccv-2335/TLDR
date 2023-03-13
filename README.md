@@ -123,7 +123,7 @@ The most relevant files for TLDR are:
   Annotated config file for the final TLDR.
 * [mmseg/models/uda/stylization.py](mmseg/models/uda/stylization.py):
   Implementation of TLDR including texture regularization loss and texture generalization loss.
-* [mmseg/datasets/photo_wct_batch.py.py](mmseg/datasets/photo_wct_batch.py):
+* [mmseg/datasets/photo_wct_batch.py](mmseg/datasets/photo_wct_batch.py):
   Implementation of Style Transfer Module (STM).
 
 ## Acknowledgements
