@@ -110,6 +110,22 @@ A training can be launched using:
 python run_experiments.py --config configs/TLDR/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py
 ```
 
+## Framework Structure
+
+This project is based on [mmsegmentation version 0.16.0](https://github.com/open-mmlab/mmsegmentation/tree/v0.16.0).
+For more information about the framework structure and the config system,
+please refer to the [mmsegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/index.html)
+and the [mmcv documentation](https://mmcv.readthedocs.ihttps://arxiv.org/abs/2007.08702o/en/v1.3.7/index.html).
+
+The most relevant files for DAFormer are:
+
+* [configs/daformer/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py](gta2cs_stylizations_warm_deeplabv3plus_resnet50.py):
+  Annotated config file for the final TLDR.
+* [mmseg/models/uda/dacs.py](mmseg/models/uda/stylization.py):
+  Implementation of TLDR including texture regularizatio loss and texture generalization loss.
+* [mmseg/datasets/uda_dataset.py](mmseg/datasets/photo_wct_batch.py):
+  Implementation of Style Transfer Module (STM).
+
 ## Acknowledgements
 
 This project is based on the following open-source projects. We thank their
@@ -118,3 +134,4 @@ authors for making the source code publically available.
 * [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
 * [DAFormer](https://github.com/lhoyer/DAFormer)
 * [RobustNet](https://github.com/shachoi/RobustNet)
+* [FastPhotoStyle](https://github.com/NVIDIA/FastPhotoStyle)
