@@ -119,7 +119,7 @@ and the [mmcv documentation](https://mmcv.readthedocs.ihttps://arxiv.org/abs/200
 
 The most relevant files for TLDR are:
 
-* [configs/daformer/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py](gta2cs_stylizations_warm_deeplabv3plus_resnet50.py):
+* [configs/TLDR/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py](gta2cs_stylizations_warm_deeplabv3plus_resnet50.py):
   Annotated config file for the final TLDR.
 * [mmseg/models/uda/stylization.py](mmseg/models/uda/stylization.py):
   Implementation of TLDR including texture regularization loss and texture generalization loss.
