@@ -117,13 +117,13 @@ For more information about the framework structure and the config system,
 please refer to the [mmsegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/index.html)
 and the [mmcv documentation](https://mmcv.readthedocs.ihttps://arxiv.org/abs/2007.08702o/en/v1.3.7/index.html).
 
-The most relevant files for DAFormer are:
+The most relevant files for TLDR are:
 
 * [configs/daformer/gta2cs_stylizations_warm_deeplabv3plus_resnet50.py](gta2cs_stylizations_warm_deeplabv3plus_resnet50.py):
   Annotated config file for the final TLDR.
-* [mmseg/models/uda/dacs.py](mmseg/models/uda/stylization.py):
-  Implementation of TLDR including texture regularizatio loss and texture generalization loss.
-* [mmseg/datasets/uda_dataset.py](mmseg/datasets/photo_wct_batch.py):
+* [mmseg/models/uda/stylization.py](mmseg/models/uda/stylization.py):
+  Implementation of TLDR including texture regularization loss and texture generalization loss.
+* [mmseg/datasets/photo_wct_batch.py.py](mmseg/datasets/photo_wct_batch.py):
   Implementation of Style Transfer Module (STM).
 
 ## Acknowledgements
